@@ -7,7 +7,7 @@ int main(){
     int score[n];  //array declaration
     for(i=0;i<n;i++){
         printf("enter scores:\n);
-        scanf("%d",&score[i]);
+        scanf("%d",&score[i]);  //array initialization using run time initialization
     }
     for(i=0;i<n-1;i++){
         for(j=0;j<n-i-1;j++){
